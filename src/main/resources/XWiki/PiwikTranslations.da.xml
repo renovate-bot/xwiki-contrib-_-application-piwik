@@ -42,24 +42,24 @@
   <minorEdit>false</minorEdit>
   <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
-  <content>### Missing: admin.piwik=
-### Missing: admin.piwik.notrunning=
-### Missing: admin.piwik.running=
-### Missing: XWiki.PiwikCode_method=
-### Missing: XWiki.PiwikCode_url=
-### Missing: XWiki.PiwikCode_siteid=
-### Missing: XWiki.PiwikCode_userTracking=
-### Missing: XWiki.PiwikCode_multidomain=
-### Missing: XWiki.PiwikCode_domain=
-### Missing: XWiki.PiwikCode_method_image=
-### Missing: XWiki.PiwikCode_method_javascript=
-### Missing: admin.piwik.method.description=
-### Missing: admin.piwik.url.description=
-### Missing: admin.piwik.siteid.description=
-### Missing: admin.piwik.userTracking.description=
-### Missing: admin.piwik.multidomain.description=
-### Missing: admin.piwik.domain.description=
-### Missing: admin.piwik.trackingcode=
-### Missing: admin.piwik.multiwiki.description=
+  <content>admin.piwik=Matomo
+admin.piwik.notrunning=Matomo-sporingen kører ikke. Udfyld "Matomo-URL" og "Websteds-id".
+admin.piwik.running=Matomo-sporingen kører.
+XWiki.PiwikCode_method=Sporingsmetode
+XWiki.PiwikCode_url=Matomo-URL
+XWiki.PiwikCode_siteid=Websteds-id
+XWiki.PiwikCode_userTracking=Sporing af brugere
+XWiki.PiwikCode_multidomain=Sporing på tværs af domæner
+XWiki.PiwikCode_domain=Domænets URL
+XWiki.PiwikCode_method_image=Sporing med billede
+XWiki.PiwikCode_method_javascript=Sporing med JavaScript
+admin.piwik.method.description=Bruger enten JavaScript eller et billede til at indsætte sporingskoden
+admin.piwik.url.description=URL'en til din sporingskode (hvor matomo.php ligger, fx https://matomo.mydomain.com/)
+admin.piwik.siteid.description=Det websteds-id, der skal bruges (kræves for at aktivere sporing)
+admin.piwik.userTracking.description=Aktivér sporing af bruger-id (virker kun med sporing med JavaScript)
+admin.piwik.multidomain.description=Aktivér sporing på tværs af domæner (*.mydomain.com)
+admin.piwik.domain.description=Angiv domænet til sporingen på tværs af domæner (fx mydomain.com)
+admin.piwik.trackingcode=Den sporingskode, der indsættes
+admin.piwik.multiwiki.description=Aktivér sporing på tværs af wikier
 </content>
 </xwikidoc>
